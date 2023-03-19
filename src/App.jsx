@@ -5,11 +5,14 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Photos from './pages/Photos/Photos';
 import Letter from './pages/Letter/Letter';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <>
+    <Navbar />
     <Router>
        
 
@@ -19,7 +22,7 @@ function App() {
       <Route exact path='/letter' element={<Letter />}></Route>
     </Routes>
     </Router>
-   
+   </>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Letter = () => {
   return (
-    <div className='h-full bg-red-500 font-lobster flex items-center justify-center'>
+    <div className='h-full bg-red-500 font-lobster flex items-center justify-center py-10'>
       <div className='xs:w-5/6 bg-red-100 w-4/6  py-12 px-4 mx-auto  rounded-sm text-center my-12 '>
         <h1 className='font-antonio text-4xl mb-7'>Dear Ema,</h1>
         <p className='text-xl mb-5'>I can’t believe we are already together for a year, the time flies so fast and I’m glad I’m spending that time with you, because ever since you’ve came to my life there was not many times I was sad because you were always there to cheer me up, to be there for me and you’ve always understood what I’m going through and I love you so much because of that.</p>
